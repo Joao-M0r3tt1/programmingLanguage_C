@@ -1,6 +1,11 @@
-/* TABELAVERDADEAND.C - Exercicio 1. Tabela-verdade do operador && */
+/*
+en-US: EXERCISE_01.C - Exercise 01. Truth table of the && operator
+- Statement: Run the program and analyze the result
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: Execute o programa e analise o resultado */
+pt-BR: EXERCICIO_01.C - Exercicio 01. Tabela-verdade do operador &&
+- Enunciado: Execute o programa e analise o resultado
+*/
 
 #include <stdio.h>
 

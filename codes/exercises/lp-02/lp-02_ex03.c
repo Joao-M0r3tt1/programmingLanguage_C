@@ -1,6 +1,11 @@
-/* TABELAVERDADENOT.C - Exrcicio 3. Tabela-verdade do operador ! */
+/*
+en-US: EXERCISE_03.C - Exercise 03. Operator truth table !
+- Statement: Create a program to display the truth table of the not operator
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: Crie um programa para exibir a tabela-verdade do operador not */
+pt-BR: EXERCICIO_03.C - Exercicio 03. Tabela-verdade do operador !
+- Enunciado: Crie um programa para exibir a tabela-verdade do operador not
+*/
 
 #include <stdio.h>
 

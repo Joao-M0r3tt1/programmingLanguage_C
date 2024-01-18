@@ -1,4 +1,9 @@
-/* OPERADORESLOGICOS.C - Operadores LÓGICOS */
+/*
+en-US: EXAMPLE_03.C - Example 03. Logical Operators
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_03.C - Exemplo 03. Operadores Lógicos
+*/
 
 #include <stdio.h>
 

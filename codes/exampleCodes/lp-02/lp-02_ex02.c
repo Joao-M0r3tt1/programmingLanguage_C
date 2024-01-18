@@ -1,4 +1,9 @@
-/* OPERADORESRELACIONAIS.C - Operadores relacionais */
+/*
+en-US: EXAMPLE_02.C - Example 02. Relational operators
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_02.C - Exemplo 02. Operadores relacionais
+*/
 
 #include <stdio.h>
 

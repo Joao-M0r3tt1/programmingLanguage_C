@@ -1,11 +1,16 @@
-/* SWITCHCASE.C - Efeito do break num switch-case */
+/*
+en-US: EXAMPLE_09.C - Example 09. Effect of break on switch case
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_09.C - Exemplo 09. Efeito do break num switch-case
+*/
 
 #include <stdio.h>
 
 int main(void) {
     int n;
 
-    printf("Numero? ");
+    printf("Number? ");
     scanf("%d", &n);
 
     switch (n) {
