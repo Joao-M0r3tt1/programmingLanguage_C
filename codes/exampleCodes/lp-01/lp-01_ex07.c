@@ -1,4 +1,9 @@
-/* FORMATACAODECAMPOS.C - Formatacao de campos */
+/*
+en-US: EXAMPLE_07.C - Example 07. Field formatting
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_07.C - Exemplo 07. Formatacao de campos
+*/
 
 #include <stdio.h>
 

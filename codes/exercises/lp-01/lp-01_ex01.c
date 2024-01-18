@@ -1,13 +1,19 @@
-/* ERRO.C - Exercicios 2. Erro */
-/* Enunciado: Qual o erro no programa a seguir? */
+/*
+en-US: EXERCISE_01.C - Exercise 01. Error
+- Statement: What is the error in the following program?
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXERCICIO_01.C - Exercicio 01. Erro
+- Enunciado: Qual o erro no programa a seguir?
+*/
 
 #include <stdio.h> 
 
 int main(void) {
-    /* printf("%d\n", 0678); */   // erro
-    printf("%d\n", 067);   // correto
+    /* printf("%d\n", 0678); */   // error
+    printf("%d\n", 067);   // correct
 
     return 0;
 }
 
-/* Identifica que o valor '0678' seria um octal, mas é um octal inválido - Apresenta o erro: invalid octal digit */
+/* Identifies that the value '0678' would be an octal, but it is an invalid octal - Displays the error: invalid octal digit */

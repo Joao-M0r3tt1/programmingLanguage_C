@@ -1,4 +1,9 @@
-/* DECLARACAOVARIAVEL.C - Declaracao de variavel */
+/*
+en-US: EXAMPLE_02.C - Example 02. Variable declaration 
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_02.C - Exemplo 02. Declaração de variavel
+*/
 
 #include <stdio.h>
 

@@ -1,24 +1,33 @@
-/* OBESE.C - determina se uma pessoa est� obesa */
+/*
+en-US: EXAMPLE_01.C - Example 01. determines whether a person is obese 
+- Statement: A person is obese if their BMI (weight divided by height squared) is greater than 30.
+Given a person's weight and height, tell whether they are obese
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: Uma pessoa est� obesa se seu IMC (peso dividido pela altura ao quadrado) � superior a 30.
-Dados o peso e a altura de uma pessoa, informe se ela est� obesa. */
+pt-BR: EXEMPLO_01.C - Exemplo 01. determina se uma pessoa está obesa
+- Enunciado: Uma pessoa está obesa se seu IMC (peso dividido pela altura ao quadrado) é superior a 30.
+Dados o peso e a altura de uma pessoa, informe se ela está obesa
+_____________________________________________________________________________________________________________________
 
-#include <stdio.h>	// entrada e sa�da padr�o
-#include <math.h>	// fun��es matem�ticas
+obs: bmi = body mass index | imc = índice de massa corporal
+*/
+
+#include <stdio.h>	// standard input and output
+#include <math.h>	// mathematical functions
 
 int main(void) {
-	// declara��o de vari�veis
+	// variable declaration
 	float weight, height, bmi;	
 	
-	// comandos
-	printf("Qual o peso e a altura? ");
+	// commands
+	printf("What is the weight and height? ");
 	scanf("%f %f", &weight, &height);
 	bmi = weight / pow(height, 2);	// bmi = weight / (height * height);
 	printf("BMI = %.1f\n", bmi);
-	if(bmi <= 30) printf("Nao esta obesa!\n");
-	else printf("Esta obesa!\n");
+	if(bmi <= 30) printf("Not obese!\n");
+	else printf("Is obese!\n");
 	
-	// retorno da fun��o main
+	// return from main function
 	return 0;
 }
 

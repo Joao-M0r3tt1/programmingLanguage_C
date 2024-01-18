@@ -1,4 +1,9 @@
-/* SAIDAFORMATADA.C - Saida formatada */
+/*
+en-US: EXAMPLE_06.C - Example 06. Formatted output
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_06.C - Exemplo 06. Saida formatada
+*/
 
 #include <stdio.h>
 

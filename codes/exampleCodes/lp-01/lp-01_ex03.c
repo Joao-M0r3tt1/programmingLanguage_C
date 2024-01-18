@@ -1,4 +1,9 @@
-/* OPERADORESARITMETICOS.C - Resultado dos operadores aritmeticos */
+/*
+en-US: EXAMPLE_03.C - Example 03. Result of arithmetic operators
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_03.C - Exemplo 03. Resultado dos operadores aritmeticos
+*/
 
 #include <stdio.h> 
 
@@ -34,7 +39,7 @@ int main(void) {
     float x = 7.0;
     int y = 2;
     print("Result: %.1f\n", x % y); 
-    Resulta em erro, não é possível tirar % de uma variável de tipo float
+    Result in error, it is not possible to remove % from a float type variable
     */
 
     return 0;

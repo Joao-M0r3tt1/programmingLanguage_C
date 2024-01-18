@@ -1,5 +1,12 @@
-/* TAMANHODEUMTIPO.C - Tamanho de um tipo */
-/* 'sizeof' - Informa a quantidade de mem�ria (em Bytes) usada por um tipo de dados */
+/*
+en-US: EXAMPLE_04.C - Example 04. Size of a type
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_04.C - Exemplo 04. Tamanho de um tipo
+_____________________________________________________________________________________________________________________
+
+obs: 'sizeof' - Reports the amount of memory (in Bytes) used by a data type
+*/
 
 #include <stdio.h>
 

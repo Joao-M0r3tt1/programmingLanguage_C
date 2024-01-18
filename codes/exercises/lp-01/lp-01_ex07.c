@@ -1,16 +1,22 @@
-/* CONSUMO.C - Exercicios 8. Consumo */
-/* Enunciado: Dada uma distância percorrida em quilômetros, e o total de litros de combustível gasto para percorrê-la, informe o consumo médio do veículo */
+/*
+en-US: EXERCISE_07.C - Exercise 07. Consumption
+- Statement: Given a distance covered in kilometers, and the total liters of fuel used to cover it, inform the average consumption of the vehicle
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXERCICIO_07.C - Exercicio 07. Consumo
+- Enunciado: Dada uma distância percorrida em quilômetros, e o total de litros de combustível gasto para percorrê-la, informe o consumo médio do veículo
+*/
 
 #include <stdio.h>
 
 int main(void) {
     float distanceKm, litersOfFuel;
 
-    printf("Informe a distancia percorrida em Km: ");
+    printf("Distance (Km)? ");
     scanf("%f", &distanceKm);
-    printf("Informe o total de litros de combustivel gastos: ");
+    printf("Fuel? ");
     scanf("%f", &litersOfFuel);
-    printf("Consumo medio do veiculo = %.2f Km/l\n", (distanceKm / litersOfFuel));
+    printf("Consumption = %.2f Km/l\n", (distanceKm / litersOfFuel));
 
     return 0;
 }
