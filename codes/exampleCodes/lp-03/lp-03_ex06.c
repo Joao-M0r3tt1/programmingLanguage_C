@@ -1,13 +1,18 @@
-/* TABUADA.C - Tabuada*/
+/*
+en-US: EXAMPLE_06.C - Example 06. multiplication table 
+- Statement: given a number n (between 1 and 10), display its multiplication table
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: dado um número n (entre 1 e 10), exiba a sua tabuada. */
+pt-BR: EXEMPLO_06.C - Exemplo 06. Tabuada
+- Enunciado: dado um número n (entre 1 e 10), exiba a sua tabuada
+*/
 
 #include <stdio.h>
 
 int main(void) {
     int n; 
 
-    printf("Numero? ");
+    printf("Number? ");
     scanf("%d", &n);
 
     for(int i = 0; i <= 10; i++)

@@ -1,13 +1,18 @@
-/* CONTAGEMREGRESSIVA.C - Exercicio 1. Contagem regressiva */
+/*
+en-US: EXERCISE_01.C - Exercise 01. Countdown
+- Statement: given a natural number n, display a countdown from n to 0
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: dado um número natural n, exiba uma contagem regressiva de n até 0 */
+pt-BR: EXERCICIO_01.C - Exercicio 01. Contagem regressiva
+- Enunciado: dado um número natural n, exiba uma contagem regressiva de n até 0
+*/
 
 #include <stdio.h>
 
 int main(void) {
     int n, i;
 
-    printf("Numero? ");
+    printf("Number? ");
     scanf("%d", &n);
 
     for(i = n; i >= 0; i--)

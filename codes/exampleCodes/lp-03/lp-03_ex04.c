@@ -1,4 +1,9 @@
-/* INCREMENTODECREMENTOEXPRESSAO.C - Uso de incremento/decremento em expressão - 2º versão*/
+/*
+en-US: EXAMPLE_04.C - Example 04. Use of increment/decrement in expression - 2nd version
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_04.C - Exemplo 04. Uso de incremento/decremento em expressão - 2º versão
+*/
 
 #include <stdio.h>
 

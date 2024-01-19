@@ -1,6 +1,11 @@
-/* PINGUEPONGUE.C - Exercicio 10. Pingue-pongue */
+/*
+en-US: EXERCISE_10.C - Exercise 10. Ping-pong
+- Statement: change the ping-pong program so that the color of the trail changes randomly each time the direction of movement of the ball is modified. Use random numbers
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: altere o programa do pingue-pongue, de modo que a cor do rastro mude aleatoriamente cada vez que a direção do movimento da bolinha for modificada. Use números aleatórios */
+pt-BR: EXERCICIO_10.C - Exercicio 10. Pingue-pongue
+- Enunciado: altere o programa do pingue-pongue, de modo que a cor do rastro mude aleatoriamente cada vez que a direção do movimento da bolinha for modificada. Use números aleatórios
+*/
 
 #include <stdio.h>
 #include <conio.h>
@@ -14,7 +19,7 @@ int main(void) {
     do {
         _gotoxy(x, y);
         printf("O\b");
-        _sleep(1);  // pausa em segundos
+        _sleep(1);  // pause in seconds
         printf(".");
         if(x == 1 || x == 80) {
             dx = -dx;

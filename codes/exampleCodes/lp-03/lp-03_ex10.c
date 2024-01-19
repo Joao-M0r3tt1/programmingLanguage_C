@@ -1,4 +1,9 @@
-/* RASTROS.C - Rastros */
+/*
+en-US: EXAMPLE_10.C - Example 10. Traces
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_10.C - Exemplo 10. Rastros
+*/
 
 #include <stdio.h>
 #include <conio.h>

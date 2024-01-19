@@ -1,6 +1,11 @@
-/* COMANDOFOR.C - O comando for*/
+/*
+en-US: EXAMPLE_05.C - Example 05. The for command
+- Statement: display a progressive count from 1 to 9
+_____________________________________________________________________________________________________________________
 
-/* Enunciado: exibir uma contagem progressiva de 1 até 9 */
+pt-BR: EXEMPLO_05.C - Exemplo 05. O comando for
+- Enunciado: exibir uma contagem progressiva de 1 até 9
+*/
 
 #include <stdio.h>
 

@@ -1,4 +1,9 @@
-/* PINNGUEPONGUE.C - Pingue-pongue */
+/*
+en-US: EXAMPLE_13.C - Example 13. Ping-pong
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_13.C - Exemplo 13. Pingue-pongue
+*/
 
 #include <stdio.h>
 #include <conio.h>
@@ -10,7 +15,7 @@ int main(void) {
     do {
         _gotoxy(x, y);
         printf("O\b");
-        _sleep(1);  // pausa em segundos
+        _sleep(1);  // pause in seconds
         printf(".");
         if(x == 1 || x == 80) dx = -dx;
         if(y == 1 || y == 24) dy = -dy;

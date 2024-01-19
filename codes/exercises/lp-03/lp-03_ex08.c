@@ -1,10 +1,17 @@
-/* RASTRO.C - Exercicio 8. Rastro */
+/*
+en-US: EXERCISE_08.C - Exercise 08. Trail
+- Statement: add the following options to the program that draws tracks:
 
-/* Enunciado: adicione as seguintes opções no programa que desenha rastros:
+A: Enables/disables the trail (when disabled, the cursor must move without leaving a trace)
+C: selects a new color for the trail (switching from one color to the next, cyclically)
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXERCICIO_08.C - Exercicio 08. Rastro
+- Enunciado: adicione as seguintes opções no programa que desenha rastros:
 
 R: ativa/desativa o rastro (quando desativado, o cursor deve se mover sem deixar rastros)
 C: seleciona uma nova cor para o rastro (alternando de uma cor para a próxima, ciclicamente)
- */
+*/
 
 #include <stdio.h>
 #include <conio.h>

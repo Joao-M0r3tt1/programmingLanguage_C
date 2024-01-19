@@ -1,4 +1,9 @@
-/* TABUEIROXADREZ.C - Tabuleiro de xadrez */
+/*
+en-US: EXAMPLE_08.C - Example 08. Chessboard
+_____________________________________________________________________________________________________________________
+
+pt-BR: EXEMPLO_08.C - Exemplo 08. Tabuleiro de xadrez
+*/
 
 #include <stdio.h>
 #include <conio.h>
@@ -6,7 +11,7 @@
 int main(void) {
     int n;
 
-    printf("Tamanho? ");
+    printf("Size? ");
     scanf("%d", &n);
 
     for(int i = 1; i <= n; i++) {
